@@ -1,0 +1,15 @@
+/tb3_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+/tb3_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+/tb3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+/tb3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv
+/tb3_ws/install/turtlebot3/share/turtlebot3/environment/path.sh
+/tb3_ws/install/turtlebot3/share/turtlebot3/environment/path.dsv
+/tb3_ws/install/turtlebot3/share/turtlebot3/local_setup.bash
+/tb3_ws/install/turtlebot3/share/turtlebot3/local_setup.sh
+/tb3_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh
+/tb3_ws/install/turtlebot3/share/turtlebot3/local_setup.dsv
+/tb3_ws/install/turtlebot3/share/turtlebot3/package.dsv
+/tb3_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+/tb3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+/tb3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+/tb3_ws/install/turtlebot3/share/turtlebot3/package.xml

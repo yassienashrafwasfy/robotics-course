@@ -1,0 +1,24 @@
+[0.343s] Invoking command in '/tb3_ws/build/turtlebot3_drl': PYTHONPATH=/tb3_ws/build/turtlebot3_drl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/tb3_ws/install/turtlebot3_drl/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /tb3_ws/build/turtlebot3_drl/build --no-deps symlink_data
+[0.483s] running develop
+[0.527s] running egg_info
+[0.527s] writing turtlebot3_drl.egg-info/PKG-INFO
+[0.527s] writing dependency_links to turtlebot3_drl.egg-info/dependency_links.txt
+[0.527s] writing entry points to turtlebot3_drl.egg-info/entry_points.txt
+[0.527s] writing requirements to turtlebot3_drl.egg-info/requires.txt
+[0.527s] writing top-level names to turtlebot3_drl.egg-info/top_level.txt
+[0.529s] reading manifest file 'turtlebot3_drl.egg-info/SOURCES.txt'
+[0.529s] writing manifest file 'turtlebot3_drl.egg-info/SOURCES.txt'
+[0.530s] running build_ext
+[0.531s] Creating /tb3_ws/install/turtlebot3_drl/lib/python3.10/site-packages/turtlebot3-drl.egg-link (link to .)
+[0.531s] Installing environment script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.531s] Installing gazebo_goals script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.532s] Installing real_agent script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.532s] Installing real_environment script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.532s] Installing real_goal script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.532s] Installing test script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.532s] Installing test_agent script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.532s] Installing train_agent script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.533s] 
+[0.533s] Installed /tb3_ws/build/turtlebot3_drl
+[0.533s] running symlink_data
+[0.555s] Invoked command in '/tb3_ws/build/turtlebot3_drl' returned '0': PYTHONPATH=/tb3_ws/build/turtlebot3_drl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/tb3_ws/install/turtlebot3_drl/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /tb3_ws/build/turtlebot3_drl/build --no-deps symlink_data

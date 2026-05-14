@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000918] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000985] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001044] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001100] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001129] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001154] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001171] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001188] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001213] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001235] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001257] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001304] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001352] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001383] (turtlebot3_drl) JobQueued: {'identifier': 'turtlebot3_drl', 'dependencies': OrderedDict()}
+[0.001517] (turtlebot3_drl) JobStarted: {'identifier': 'turtlebot3_drl'}
+[0.098427] (-) TimerEvent: {}
+[0.198852] (-) TimerEvent: {}
+[0.299328] (-) TimerEvent: {}
+[0.399793] (-) TimerEvent: {}
+[0.506062] (-) TimerEvent: {}
+[0.606488] (-) TimerEvent: {}
+[0.707633] (-) TimerEvent: {}
+[0.808094] (-) TimerEvent: {}
+[0.910325] (-) TimerEvent: {}
+[1.010715] (-) TimerEvent: {}
+[1.098367] (turtlebot3_drl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/tb3_ws/build/turtlebot3_drl/build', '--no-deps', 'symlink_data'], 'cwd': '/tb3_ws/build/turtlebot3_drl', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/tb3_ws/install/turtlebot3_msgs/lib:/tb3_ws/install/dynamixel_sdk_custom_interfaces/lib:/tb3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/tb3_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/tmp/fastdds_no_shm.xml', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/tb3_ws/install/turtlebot3:/tb3_ws/install/turtlebot3_teleop:/tb3_ws/install/turtlebot3_simulations:/tb3_ws/install/turtlebot3_bringup:/tb3_ws/install/turtlebot3_node:/tb3_ws/install/turtlebot3_fake_node:/tb3_ws/install/turtlebot3_example:/tb3_ws/install/turtlebot3_msgs:/tb3_ws/install/turtlebot3_gazebo:/tb3_ws/install/turtlebot3_drl:/tb3_ws/install/turtlebot3_description:/tb3_ws/install/dynamixel_sdk_examples:/tb3_ws/install/dynamixel_sdk_custom_interfaces:/tb3_ws/install/dynamixel_sdk:/opt/ros/humble', 'PWD': '/tb3_ws/build/turtlebot3_drl', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/tb3_ws/build/turtlebot3_drl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/tb3_ws/install/turtlebot3_drl/lib/python3.10/site-packages:/tb3_ws/build/turtlebot3_teleop:/tb3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/tb3_ws/build/turtlebot3_example:/tb3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/tb3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/tb3_ws/build/turtlebot3_drl:/tb3_ws/install/turtlebot3_drl/lib/python3.10/site-packages:/tb3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/tb3_ws/install/turtlebot3:/tb3_ws/install/turtlebot3_simulations:/tb3_ws/install/turtlebot3_bringup:/tb3_ws/install/turtlebot3_node:/tb3_ws/install/turtlebot3_fake_node:/tb3_ws/install/turtlebot3_msgs:/tb3_ws/install/turtlebot3_gazebo:/tb3_ws/install/turtlebot3_description:/tb3_ws/install/dynamixel_sdk_examples:/tb3_ws/install/dynamixel_sdk_custom_interfaces:/tb3_ws/install/dynamixel_sdk'}, 'shell': False}
+[1.110852] (-) TimerEvent: {}
+[1.211359] (-) TimerEvent: {}
+[1.313534] (-) TimerEvent: {}
+[1.415190] (-) TimerEvent: {}
+[1.516157] (-) TimerEvent: {}
+[1.596578] (turtlebot3_drl) StdoutLine: {'line': b'running develop\n'}
+[1.618100] (-) TimerEvent: {}
+[1.720813] (-) TimerEvent: {}
+[1.821344] (-) TimerEvent: {}
+[1.875366] (turtlebot3_drl) StdoutLine: {'line': b'running egg_info\n'}
+[1.875613] (turtlebot3_drl) StdoutLine: {'line': b'writing turtlebot3_drl.egg-info/PKG-INFO\n'}
+[1.876460] (turtlebot3_drl) StdoutLine: {'line': b'writing dependency_links to turtlebot3_drl.egg-info/dependency_links.txt\n'}
+[1.877156] (turtlebot3_drl) StdoutLine: {'line': b'writing entry points to turtlebot3_drl.egg-info/entry_points.txt\n'}
+[1.877523] (turtlebot3_drl) StdoutLine: {'line': b'writing requirements to turtlebot3_drl.egg-info/requires.txt\n'}
+[1.877786] (turtlebot3_drl) StdoutLine: {'line': b'writing top-level names to turtlebot3_drl.egg-info/top_level.txt\n'}
+[1.882271] (turtlebot3_drl) StdoutLine: {'line': b"reading manifest file 'turtlebot3_drl.egg-info/SOURCES.txt'\n"}
+[1.884774] (turtlebot3_drl) StdoutLine: {'line': b"writing manifest file 'turtlebot3_drl.egg-info/SOURCES.txt'\n"}
+[1.886149] (turtlebot3_drl) StdoutLine: {'line': b'running build_ext\n'}
+[1.886358] (turtlebot3_drl) StdoutLine: {'line': b'Creating /tb3_ws/install/turtlebot3_drl/lib/python3.10/site-packages/turtlebot3-drl.egg-link (link to .)\n'}
+[1.886531] (turtlebot3_drl) StdoutLine: {'line': b'Installing environment script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.886932] (turtlebot3_drl) StdoutLine: {'line': b'Installing gazebo_goals script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.887452] (turtlebot3_drl) StdoutLine: {'line': b'Installing real_agent script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.887558] (turtlebot3_drl) StdoutLine: {'line': b'Installing real_environment script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.887723] (turtlebot3_drl) StdoutLine: {'line': b'Installing real_goal script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.888339] (turtlebot3_drl) StdoutLine: {'line': b'Installing test script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.888476] (turtlebot3_drl) StdoutLine: {'line': b'Installing test_agent script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.888568] (turtlebot3_drl) StdoutLine: {'line': b'Installing train_agent script to /tb3_ws/install/turtlebot3_drl/lib/turtlebot3_drl\n'}
+[1.888798] (turtlebot3_drl) StdoutLine: {'line': b'\n'}
+[1.889005] (turtlebot3_drl) StdoutLine: {'line': b'Installed /tb3_ws/build/turtlebot3_drl\n'}
+[1.889133] (turtlebot3_drl) StdoutLine: {'line': b'running symlink_data\n'}
+[1.921534] (-) TimerEvent: {}
+[1.936326] (turtlebot3_drl) CommandEnded: {'returncode': 0}
+[1.966078] (turtlebot3_drl) JobEnded: {'identifier': 'turtlebot3_drl', 'rc': 0}
+[1.973928] (-) EventReactorShutdown: {}

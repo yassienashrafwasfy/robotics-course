@@ -1,0 +1,6 @@
+Invoking command in '/tb3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /tb3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/tb3_ws/install/turtlebot3_description
+Invoked command in '/tb3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /tb3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/tb3_ws/install/turtlebot3_description
+Invoking command in '/tb3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /tb3_ws/build/turtlebot3_description -- -j8 -l8
+Invoked command in '/tb3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /tb3_ws/build/turtlebot3_description -- -j8 -l8
+Invoking command in '/tb3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /tb3_ws/build/turtlebot3_description
+Invoked command in '/tb3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /tb3_ws/build/turtlebot3_description
