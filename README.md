@@ -11,7 +11,7 @@ Before setting up the environment, ensure you have ROS 2 Humble installed on you
    Run the following command to install ROS 2 Humble:
 
    ```bash
-   curl -OL https://raw.githubusercontent.com/zorx01/scripts/main/setup_system.sh
+   curl -OL https://raw.githubusercontent.com/yassienashrafwasfy/scripts/main/setup_system.sh
    ```
 
    Then, execute the script:
